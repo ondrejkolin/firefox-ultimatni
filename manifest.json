@@ -6,6 +6,7 @@
 	"description": "Great app",
 	"content_scripts": [{
 		"matches": ["<all_urls>"],
-		"js": ["kolega.js"]
+		"js": ["kolega.js"],
+		"css": ["kolega.css"]
 	}]
 }

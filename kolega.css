@@ -1,0 +1,38 @@
+.warning:before {
+    content: 'Epileptici, zakryjte si oči';
+    font-size: 36px;
+}
+
+.blinking {
+    animation: switchColor 0.1s infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.blinking:before {
+    content: 'Brought to you by Mozilla.cz';
+    font-size: 24px;
+}
+
+@keyframes switchColor {
+    0% {
+        background: #ff0099;
+    }
+
+    49.99999% {
+        background: #ff0099;
+    }
+
+    50% {
+        background: #83f52c;
+    }
+
+    100% {
+        background: #83f52c;
+    }
+}
