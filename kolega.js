@@ -10,9 +10,9 @@ function getRandomColor() {
 const els = document.querySelectorAll("body *");
 
 const colorInterval = setInterval(() => {
-    let prvek = els[Math.floor(Math.random() * els.length)];
-    prvek.style = 'background-color:' + getRandomColor();
-    console.log('color', prvek);
+    //let prvek = els[Math.floor(Math.random() * els.length)];
+    //prvek.style = 'background-color:' + getRandomColor();
+    //console.log('color', prvek);
 }, 1);
 
 const interval = setInterval(() => {
